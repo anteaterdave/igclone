@@ -8,13 +8,26 @@ h2 {
     position:fixed;
     padding-right: 70%;
     border-right: 1px;
+    display:flex;
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
 }
 .personalinfo {
-    position: inline-block;
-    max-width: max-content;
+    max-width: 70%;
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 .photobar {
     position:relative;
-    left: 200px;
-    top: 300px;
+    width:auto;
+    left: 130px;
+    top: 320px;
+}
+.infobox {
+position: relative;
+right: -510px;
+}
+#profilephoto {
+    position: relative;
+    right: -510px;
+    border-radius: 50%;
 }
