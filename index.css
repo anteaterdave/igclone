@@ -1,0 +1,20 @@
+body {
+    display:flex;
+}
+h2 {
+    position: inline;
+}
+.leftbar {
+    position:fixed;
+    padding-right: 70%;
+    border-right: 1px;
+}
+.personalinfo {
+    position: inline-block;
+    max-width: max-content;
+}
+.photobar {
+    position:relative;
+    left: 200px;
+    top: 300px;
+}
